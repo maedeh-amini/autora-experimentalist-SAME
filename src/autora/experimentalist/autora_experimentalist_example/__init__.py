@@ -31,7 +31,7 @@ from autora.experimentalist.novelty import novelty_sample
 def score_sample(
     conditions: Union[pd.DataFrame, np.ndarray],
     models: List,
-    num_samples: Optional[int] = None,
+    num_samples: Optional[int] = None,   
 ):
 
 
